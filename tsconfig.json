@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["esnext"],
+    "paths": {
+      "@config/*": ["tests/config/*"],
+      "@support/*": ["tests/support/*"],
+      "@fixtures/*": ["tests/fixtures/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
