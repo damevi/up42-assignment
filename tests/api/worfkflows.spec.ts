@@ -8,7 +8,10 @@ import {
   WORKFLOW_ENDPOINT,
 } from "@config/endpoints";
 
-import { addWorkflowTasks, createNewWorkflow } from "@support/utils";
+import {
+  addWorkflowTasks,
+  createNewWorkflow,
+} from "@support/helpers/Workflows";
 import {
   JOB_DETAILS,
   NEW_WORKFLOW_DATA,

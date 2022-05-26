@@ -1,5 +1,6 @@
 import { test as base } from "@playwright/test";
 import { OAUTH_ENDPOINT } from "../config/endpoints";
+
 require("dotenv").config();
 
 const authUrl = `https://${process.env.PROJECT_ID}:${process.env.PROJECT_API_KEY}@api.up42.com${OAUTH_ENDPOINT}`;
