@@ -13,7 +13,7 @@ The task was to write workflow related tests against the UP42's API, of which in
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/) **version 14** or higher installed.
-- Please look at `.env.example` file and create a `.env` file with valid credentials
+- Please look at [.env.example](https://github.com/damevi/up42-assignment/blob/master/.env.example) file and create a `.env` file with valid credentials
 
 ## Installation
 
